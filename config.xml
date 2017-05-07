@@ -5,11 +5,11 @@ id ="com.phonegap.example2"
 version="1.0.0">
 
 
-<name>app2 Telefonia celular</name>
+<name>app6 Batalla de Puebla </name>
 
 
 <description> 
-Aplicacion que muestra informacion sobre la telefonia celular
+Aplicacion que muestra informacion sobre la Batalla de Puebla 
 </description>
 
 <author href="https://build.phonegap.com" email="lunayazmin33@gmail.com">
@@ -34,9 +34,15 @@ Yazmin Luna Castellanos 4e
 <!--<plugin name="cordova-plugin-geolocation" source="npm"/>-->
 <!--Third part plugins-->
 
+<!--Paraaccesar a paginas en internet-->
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
+<allow-intent href="http://*/*"/>
+<acces origin="http://*/*"/>
+<plugin name="cordova-plugin-whitelist" source="npm"/>
+
 <!--Colocar icono app-->
 
 <icon src="res/android/mdpi.png"/>
 
 </widget>
-
